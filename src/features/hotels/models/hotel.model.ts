@@ -64,5 +64,5 @@ const HotelSchema = new Schema<IHotel>(
 );
 
 const Hotel = model<IHotel>("Hotel", HotelSchema);
-
-export default Hotel;
+export {Hotel}
+export default IHotel;
